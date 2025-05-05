@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  border-radius: 8px;
+  width: 35%;
+  background-color: #f6f6f8;
+}
+
+.brand-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand p {
+  display: flex;
+  margin: 10px;
+}
+
+.brand img {
+  aspect-ratio: auto;
+  max-width: 140px;
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.advantages-content {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-content img {
+  object-fit: cover;
+  max-width: 660px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#advantages {
+  max-width: 570px;
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f8;
+}
+
+.item {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.item-header {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+.more {
+  margin-top: 0.5rem;
+  display: none;
+  color: #555;
+}
+
+.more.open {
+  max-width: 570px;
+  display: block;
+}
+
+.slider-container {
+  display: flex;
+}

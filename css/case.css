@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+#sliders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.case-container {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+  overflow: hidden; 
+}
+
+.case-container img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.case-container  .before {
+  z-index: 1;
+}
+
+.case-container  .after {
+  opacity: 0;
+  z-index: 2;
+}
+
+.case-container .toggle-btn {
+  position: relative;
+  z-index: 3;
+  margin-top: 220px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border: white;
+  transition: background-color 0.3s;
+}
+
+.buttons-container {
+  display: flex;
+  float: right;
+}
+
+.case-container .toggle-btn.active {
+  background-color: white;
+  color: #333;
+}
+
+.case-wrapper {
+  width: 100%;
+}
+
+.buttons-container {
+  background-color: #D30000;
+  width: 60%;
+  border-radius: 10px;
+}
+

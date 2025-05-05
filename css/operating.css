@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+.slider-section {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.slider-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.slider-controls button {
+  color: rgb(220, 220, 220);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.slider-controls button:hover {
+  color: #555;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slider-track img {
+  object-fit: cover;
+  width: 80%;
+  max-width: 760px;
+  margin: 5px;
+  border-radius: 10px;
+}

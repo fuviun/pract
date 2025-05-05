@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.stage-content {
+  display: flex;
+}
+
+.stage {
+  width: 35%;
+  height: 260px;
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f6f6f8;
+  border-radius: 10px;
+}
+
+.stage p, h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.stage-info {
+  margin: 10px;
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.method {
+  display: flex;
+}
+
+.all-on-img {
+  object-fit: cover;
+  display: flex;
+}
+
+.all-on-img img {
+  object-fit: cover;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+}

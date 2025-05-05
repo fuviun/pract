@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.doctor-slider-section {
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.doctor-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.slider-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.slider-btn {
+  padding: 8px 14px;
+  font-size: 20px;
+  color: #e5e4e4;
+  border: none;
+  cursor: pointer;
+}
+
+.doctor-track-wrapper {
+  overflow: hidden;
+}
+
+.doctor-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.doctor-card {
+  flex: 0 0 calc(33.333% - 10px); 
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.doctor-card img {
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
